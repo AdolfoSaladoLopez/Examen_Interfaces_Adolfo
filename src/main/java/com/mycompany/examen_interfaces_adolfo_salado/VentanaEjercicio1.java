@@ -107,9 +107,9 @@ public class VentanaEjercicio1 implements Initializable {
         Double ger = 0D;
 
         if (usuario.getSexo().equals("Hombre")) {
-            ger = 66.473 + 13.751 * usuario.getPeso() + 5.0033 * usuario.getAltura() - 6.755 * usuario.getEdad();
+            ger = (66.473 + 13.751 * usuario.getPeso()) + (5.0033 * usuario.getAltura()) - (6.755 * usuario.getEdad());
         } else if (usuario.getSexo().equals("Mujer")) {
-            ger = 655.0955 + 9.463 * usuario.getPeso() + 1.8596 * usuario.getAltura() - 4.6756 * usuario.getEdad();
+            ger = (655.0955 + 9.463 * usuario.getPeso()) + (1.8596 * usuario.getAltura()) - (4.6756 * usuario.getEdad());
         }
 
         return ger;

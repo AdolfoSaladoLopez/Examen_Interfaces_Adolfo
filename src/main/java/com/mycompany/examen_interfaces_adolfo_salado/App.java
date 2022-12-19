@@ -9,7 +9,9 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * JavaFX App
+ * Desarrollo de Interfaces
+ * Examen Primer trimestre - 2ºDAM
+ * Realizado por Adolfo Salado López
  */
 public class App extends Application {
 
